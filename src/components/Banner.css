@@ -1,0 +1,9 @@
+.banner {
+  padding: 12px 0;
+  position: relative;
+}
+
+.banner-content {
+  color: #fff;
+  font-size: 18px;
+}

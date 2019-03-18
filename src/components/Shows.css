@@ -1,0 +1,24 @@
+.shows {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.show-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.show {
+  margin-right: 15px;
+  margin-bottom: 30px;
+  width: 155px;
+}
+
+.show img {
+  max-width: 150px;
+}
+
+.show-title {
+  margin-top: 10px;
+  overflow-wrap: wrap;
+}

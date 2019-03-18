@@ -1,0 +1,12 @@
+# Common
+.DS_Store
+.idea/
+.tmp/
+node_modules/
+npm-debug.log
+npm-debug.log.*
+yarn-error.log
+.gitconfig
+
+# Build Files
+dist/
