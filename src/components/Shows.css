@@ -9,13 +9,39 @@
 }
 
 .show {
-  margin-right: 15px;
   margin-bottom: 30px;
-  width: 155px;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: calc(100% / 3);
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 480px) {
+  .show {
+    width: calc(100% / 4);
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .show {
+    width: calc(100% / 5);
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .show {
+    width: calc(100% / 6);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .show {
+    width: calc(100% / 7);
+  }
 }
 
 .show img {
-  max-width: 150px;
+  width: 100%;
 }
 
 .show-title {
